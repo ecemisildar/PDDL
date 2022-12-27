@@ -1,0 +1,8 @@
+(put_plant p1 v1 crate gripper store)
+(move_vase_ab gripper store spota v1 crate)
+(put_plant p2 v2 crate gripper store)
+(move_vase_ab gripper store spotb v2 crate)
+(put_plant p3 v3 crate gripper store)
+(move_vase_cd gripper store spota spotc v3 v1)
+(put_plant p4 v4 crate gripper store)
+(move_vase_cd gripper store spotb spotd v4 v2)
